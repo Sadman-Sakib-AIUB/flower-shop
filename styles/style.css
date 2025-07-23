@@ -17,6 +17,12 @@
   font-style: normal;
 }
 
+/*--------------------------------------------- shared syles ------------------------------------ */
+
+.orange{
+    color: rgb(233, 90, 8);
+}
+
 /* -------------------------------------------- Navbar Styles ------------------------------ */
 .navbar{
     display: flex;
@@ -26,6 +32,7 @@
     border: 2px solid red;  
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .menu>ul{
@@ -50,4 +57,87 @@
 
 #cart{
     color: rgb(0, 0, 0);
+}
+
+/* ----------------------------------------- Hero section -------------------------------------- */
+.hero-container{
+    display: flex;
+    max-width: 1140px;
+    height: 461px;
+    margin: 0 auto;
+    border: 2px solid magenta;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.hero-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.hero-description{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-img{
+    width: 100%;
+    height: auto;
+}
+
+/*--------------------------------------------- Our Palnts -------------------------------  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------- Responsive for Mobile ----------------------------*/
+@media screen and (max-width:576px) {
+    
+    /*--------------------------------- Navbar ---------------------------------  */
+    .navbar{
+        margin-bottom: 0px;
+    }
+    .menu-link{
+        display: none;
+        position: relative;
+    }
+
+    #cart{
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top:35px
+    }
+
+    /* --------------------------------- Hero section --------------------------- */
+    
+    .hero-container{
+        flex-direction:column-reverse;
+    }
+
+    .hero-title{
+        font-size: 1.8rem;
+    }
+    .hero-description{
+        font-size: 0.8rem;
+    }
+
+    
 }
