@@ -452,6 +452,7 @@ input[type=submit] {
     .flower-lover-container{
         flex-direction: column;
         gap: 0px;
+        margin-bottom: 50px;
     }
     
     .flower-lover-title{
@@ -467,6 +468,9 @@ input[type=submit] {
 
     /*---------------------------------------- Latest Deals -------------------------------  */
 
+    .latest-deal{
+        margin-bottom: 50px;
+    }
     .latest-deal-description{
         width: 360px;
         margin: 0px;
