@@ -18,6 +18,9 @@
 }
 
 /*--------------------------------------------- shared syles ------------------------------------ */
+body {
+    background-color: #f5f8ff;
+}
 
 .orange{
     color: rgb(233, 90, 8);
@@ -78,7 +81,7 @@
     height: 461px;
     margin: 0 auto;
     border: 2px solid magenta;
-    align-items: center;
+    align-items: end;
     margin-bottom: 120px;
 }
 
@@ -156,6 +159,7 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
+    margin-bottom: 130px;
 }
 
 .flower-lover-title{
@@ -183,9 +187,117 @@
 }
 
 
+/*---------------------------------------------- Latest Deal --------------------------------------*/
+
+.latest-deal,.deal-grid-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.latest-deal-title{
+    font-size: 3.1rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.latest-deal-description{
+    width: 888px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 126px;
+    margin-right: 126px;
+    border: 2px solid red;
+}
 
 
 
+
+/*--------------------------------------------- Join Section --------------------------------- */
+.join-section {
+    background-image: url('../assets/news-letter-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    margin-bottom: 50px;
+}
+
+.join-content {
+    max-width: 830px;
+    margin: auto;
+}
+
+.join-header h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 3.1rem;
+}
+
+.form {
+    display: flex;
+    gap: 0;
+    width: 100%;
+}
+
+input {
+    font-size: 1em;
+    /* color: var(--text-color); */
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+}
+
+input[type=email] {
+    width: 70%;
+    border-radius: 3px 0 0 3px;
+}
+
+input[type=submit] {
+    width: 30%;
+    color: #ffffff;
+    background-color:rgb(233, 90, 8);
+    border-radius: 0 3px 3px 0;
+}
+
+
+/*------------------------------------------- Footer Styles --------------------------------------  */
+.footer-container{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 359px 130px 170px 216px;
+    justify-content: space-between;
+    
+}
+
+.footer-brand>p {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-menu ul>li{
+    list-style: none;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
 
 
 
@@ -273,5 +385,50 @@
     .flower-lover-img{
         width: 100%;
     }
+
+    /*---------------------------------------- Latest Deals -------------------------------  */
+
+    .latest-deal-description{
+        width: 360px;
+        margin: 0px;
+    }
+
+    /* -------------------------------------------- Join  ------------------------------*/
+    .join-header h2{
+        font-size: 1.3rem;
+    }
+    .join-section {
+        padding: 100px 0;
+    }
+
+    .join-content {
+        max-width: 90%;
+    }
+
+    input[type=email] {
+        width: 65%;
+    }
+
+    input[type=submit] {
+        width: 35%;
+    }
+
+    input[type=submit] {
+        padding: 15px 10px;
+    }
+
+
+    /* ------------------------------------- Footer Styles --------------------------------- */
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-menu ul{
+        padding-left: 0px;
+    }
+    .icons {
+        justify-content: start;
+    }
+
     
 }
