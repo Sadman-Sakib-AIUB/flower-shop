@@ -44,7 +44,7 @@ body {
     max-width: 1140px;
     height: 71px;
     margin: 0px auto;  
-    border: 2px solid red;  
+    /* border: 2px solid red;   */
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
@@ -80,7 +80,7 @@ body {
     max-width: 1140px;
     height: 461px;
     margin: 0 auto;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     align-items: end;
     margin-bottom: 120px;
 }
@@ -109,7 +109,7 @@ body {
     max-width: 1140px;
     height: auto;
     margin: 0px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 210px;
 }
 .our-plants{
@@ -154,7 +154,7 @@ body {
 .flower-lover-container{
     max-width: 1140px;
     margin: 0px auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +192,7 @@ body {
 .latest-deal{
     max-width: 1140px;
     margin: 0px auto;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     text-align: center;
     margin-bottom: 120px;
 }
@@ -207,7 +207,7 @@ body {
     color: rgba(0, 0, 0, 0.5);
     margin-left: 126px;
     margin-right: 126px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /*--------------------------------------------- Deal Images -----------------------------------*/
@@ -231,7 +231,7 @@ body {
 }
 
 .deal-img-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
     
 }
